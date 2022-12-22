@@ -9,8 +9,8 @@ ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
 
-$url = "https://ncore.cc/login.php";
-$ref_link = "https://ncore.cc/hitnrun.php";
+$url = "https://ncore.pro/login.php";
+$ref_link = "https://ncore.pro/hitnrun.php";
 $params = "nev=".NAME."&pass=".PASSWORD."&submitted=1&set_lang=hu";
 $cookie = getcwd()."cookies.txt";
 $html = cURL($url,true,$cookie,$params);
