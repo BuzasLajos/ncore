@@ -65,7 +65,7 @@ function html_to_array($html){
 			if($class_name=="hnr_tname"){
 				$i++;
 				foreach($elem->getElementsByTagName('a') as $link){
-					$link = "https://ncore.cc/".$link->attributes->getNamedItem('href')->nodeValue;
+					$link = "https://ncore.pro/".$link->attributes->getNamedItem('href')->nodeValue;
 					$hnrAll[$i]['link'] = $link;
 				}
 
